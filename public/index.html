@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="nav-bar">
+                <nav>
+                    <h1 class="logo">Kevin's Site</h1>
+
+                    <ul>
+                        <li class="nav-item"><a href="index.html"> Home </a></li>
+                        <li class="nav-item"><a href="#About"> About </a></li>
+                        <li class="nav-item"><a href="#portfolio"> Projects </a></li>
+
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="header-text">
+                <p>Computer Science Student</p>
+                <h1>Hi, I am <span>Kevin Naveen</span><br> From Canada</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/about-me.jpg" alt="About-me image">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+
+                    <p>Hello I am kevin Naveen, I am a 3rd year comptuer science student at The University of Ottawa and
+                        am interested in exploring the multitude of softwares and programming concepts. </p>
+                    <div class="tabs">
+                        <p class="tab-link link-active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="content-tab active-tab" id="skills">
+                        <ul>
+
+                            <li><span>Web Development</span> Designing a website layout with html and css, primarily
+                                front-end development. Experienced with grid, flexbox, and some experience with
+                                bootstrap</li>
+                            <li><span>Game Development</span> Experience using the unity Game engine alongside c#,
+                                creating threads, game loops, and linking game objects to code</li>
+                        </ul>
+                    </div>
+                    <div class="content-tab" id="experience">
+                        <ul>
+                            <li><span>Emerdepot</span> Utilizing shopify to increase search engine optimization through
+                                blogs and on-screen optimization. Filing orders through Zoho and eshipper to fullfill
+                                them</li>
+
+                        </ul>
+                    </div>
+                    <div class="content-tab" id="education">
+                        <ul>
+                            <li><span> Harbord Collegiate Institute</span> OSSD obtained with Harbord Lily Wolfsted
+                                Award
+                                given upon graduation</li>
+                            <li><span> University of Ottawa</span> Currently enrolled in a bachelor of Computer Science
+                                with co-op program, in year 3 of 4</li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume Section -->
+    <div id="resume">
+        <div class="container">
+            <h1>Kevin Naveen</h1>
+            <p>Aspiring Computer Scientist</p>
+            <p>647-740-9270 | <a href="mailto:knave059@uottawa.ca">knave059@uottawa.ca</a></p>
+            <p><a href="https://linkedin.com/in/kevin-naveen">LinkedIn</a> | <a
+                    href="https://github.com/Kevin-Nav07">GitHub</a></p>
+            <p><a href="https://kevin-nav07.github.io/Personal-Site/">Personal Site</a></p>
+            <h2>Skills</h2>
+            <h3>Technical Skills</h3>
+            <p>Java, Python, HTML, CSS, C#, C++, Visual Studio Code, Microsoft Suite, Netbeans, Eclipse, Repl.it,
+                Vscode,
+                Android Studio, Unity, Shopify Dashboard, Python Flask, PowerBI</p>
+            <h3>Transferable Skills</h3>
+            <p>Leadership, teamwork, detail-oriented, time management, organisation</p>
+            <h2>Personal Projects and Additional Skills</h2>
+            <h3>Mealer App</h3>
+            <p>Developed an app that connects cooks with clients. Used XML for UI and Firebase for the database.</p>
+            <h3>Hotel Booking Site</h3>
+            <p>Built a hotel booking site using HTML, CSS, Bootstrap, and Python Flask connected to a MySQL database. <a
+                    href="https://youtu.be/a9rX4PiAABA">Project Demo</a></p>
+            <h3>Space Shooter Game</h3>
+            <p>Developing a 2D space shooter game using C# and Unity.</p>
+            <h3>2D Game</h3>
+            <p>Building a 2D side scroller game in Java, focusing on advanced game mechanics and threading.</p>
+            <h2>Work Experience</h2>
+            <h3>Assistance for Website - Emer Depot</h3>
+            <p>Added products and optimized SEO via Shopify. Managed packing and fulfilment of orders. <span>May 2023 -
+                    August 2023</span></p>
+            <h3>Data Scientist on Macroanalysis - Transportation Safety Board of Canada</h3>
+            <p>Developed PowerBI dashboards, utilized DAX for data analysis, and peer-reviewed accident/incident data.
+                <span>January 2024 - April 2024</span>
+            </p>
+            <h2>Education</h2>
+            <p>University of Ottawa - Bachelor of Computer Science (Year 3)</p>
+            <p>Admission Scholarship ($4000) | Merit Scholarship ($1000 1st and 2nd term)</p>
+        </div>
+    </div>
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+
+                    <img src="Images/SpaceShooterPrev.png" style="width: auto;max-height: 100%;" alt="">
+                    <div class="layer">
+                        <h3>2D Space Shooter Unity Game</h3>
+                        <p>An application made with c# and the Unity game engine, a simple game involving a spawn
+                            generator and multiple enemies. Currently work in progress</p>
+                        <a href="https://github.com/Kevin-Nav07/Space-Shooting-Game"><img src="Images/link-icon.png"
+                                alt="space shooter game image"></a>
+                    </div>
+                </div>
+                <div class="work">
+
+                    <img src="Images/PlatformerGamePrev.png" style="width: auto;max-height: 100%;">
+                    <div class="layer">
+                        <h3>2D Platformer Game</h3>
+                        <p>2D rpg entirely built froms scratch using Java. Work in progress and currently last on
+                            priority list</p>
+                        <a href="https://github.com/Kevin-Nav07/MyPlatformerGame"><img src="Images/link-icon.png"
+                                alt="platformer game image"></a>
+                    </div>
+                </div>
+                <div class="work">
+
+                    <img src="Images/ENG-travel-site-prev.png" style="width: auto;max-height: 100%;" alt="">
+                    <div class="layer">
+                        <h3>Front-End England Travel Website</h3>
+                        <p>A front-end website detailing travel tips for the country of England using html, css, and the
+                            Bootstrap API</p>
+                        <a href="https://github.com/Kevin-Nav07/England_Travel_Website"><img src="Images/link-icon.png"
+                                alt="space shooter game image"></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-link");
+    var tabcontents = document.getElementsByClassName("content-tab");
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("link-active")
+
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("link-active");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+</script>
+
+</html>
