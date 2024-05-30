@@ -146,7 +146,11 @@ nav {
 
 
 .logo {
-    font-size: 28;
+    font-size: 75px;
+}
+
+.logo span{
+    color: #45397e;
 }
 
 nav ul li {
@@ -179,9 +183,11 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-    margin-top: 20%;
+    display: flex; /* Added */
+    align-items: center; /* Added */
+    justify-content: space-between; /* Added */
+    margin-top: 15%;
     font-size: 30px;
-
 }
 
 .header-text h1 {
@@ -193,6 +199,20 @@ nav ul li a:hover::after {
 .header-text h1 span {
     color: #45397e;
 }
+
+.header-text img{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.header-text .text-content { /* Added */
+    display: flex; /* Added */
+    flex-direction: column; /* Added */
+    max-width: 60%; /* Adjust as needed */
+}
+
+
+
 
 #content-grid {
     padding: 50px 0;
