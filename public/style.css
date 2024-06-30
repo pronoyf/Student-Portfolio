@@ -213,8 +213,10 @@ nav ul li a:hover::after {
 }
 
 .header-text img{
-    width: 300px;
+    height: auto;
+    width: 225px;
     border-radius: 15px;
+    max-width: 100%;
 }
 
 .header-text .text-content { /* Added */
